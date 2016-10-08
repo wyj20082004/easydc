@@ -20,6 +20,7 @@ def main():
     aliId      =  str(uuid4())
     
     ali = Ali(aliId)
+    ali.name = 'my ali.'
     try:
         
         #注册运算实例
